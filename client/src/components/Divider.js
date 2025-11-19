@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Divider = () => {
   return (
-    <div className='p-[0.5px] bg-slate-200 my-1'>
-      
+    <div className="h-[1px] bg-gradient-to-r from-transparent via-purple-500 to-transparent my-2 shadow-lg animate-glow">
+      {/* Optional: Add an icon or decorative element here */}
     </div>
-  )
-}
+  );
+};
 
-export default Divider
+export default Divider;

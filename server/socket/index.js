@@ -60,7 +60,7 @@ io.on('connection', async (socket) => {
     };
     socket.emit('message-user', payload);
 
-    // Get previous messages
+    // Get previous messages ci-cd pipeliinG jenkins  
     const getConversationMessage = await ConversationModel.findOne({
       '$or': [
         { sender: user._id, receiver: userId },
